@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: html-img
+    build: .
+    container_name: static-html
+    restart: always
+    ports:
+      - "8081:80"
